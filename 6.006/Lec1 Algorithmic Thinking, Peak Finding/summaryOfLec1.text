@@ -1,0 +1,15 @@
+Divide and Conquer
+
+Divide -> Conquer(find peak recursively)
+-> combine(result/s specified)
+
+1D Peak Finding Analysis
+Divide Cost: O(1) //constant
+Recurrence: T(n) = T (n/2) + O(1)
+Combine Cost: O(1)
+
+T(n) = best case - worst case log(base2) n
+
+2D Peak Finding Analysis (size is n x n)
+T(n) = T(n/2) + cn
+T(n) = best case - worst case (n)	
